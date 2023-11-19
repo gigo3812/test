@@ -1,0 +1,25 @@
+body{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+}
+td,th{
+    padding: 10px 20px;
+}
+th{
+    background: black;
+    color: gold;
+}
+tr:nth-child(even){
+    background: gray;
+    color: whitesmoke;
+}
+
+table caption h6{
+    font-size: 15px;
+}
